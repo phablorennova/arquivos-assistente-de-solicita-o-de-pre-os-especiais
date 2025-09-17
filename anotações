@@ -1,0 +1,69 @@
+Estou criando um agente de ia focado em ajudar os vendedores da rennova a estruturar uma solicitação de preços especiais para os clientes.
+
+
+Isso acontece em algum momento em que o vendedor acha válido solicitar algum preço diferenciado para um cliente, porém as condições que ele quer não estão disponíveis nas promoções atuais. Neste caso, o vendedor tem que estruturar uma mensagem padronizada contendo algumas informações obrigatórias e gerar uma solicitação de preços especiais. 
+
+
+Perguntas que o agente deve fazer para o vendedor uma por vez(e armazenar temporariamente a resposta)
+- Quais os produtos estão sendo incluídos na proposta?
+- Há algum SKU ou código de item específico?
+- A solicitação é pontual, contrato, projeto ou outro tipo?
+- Qual é o valor total do pedido?
+- Há produtos complementares (cross-selling)?
+- Qual a justificativa (defesa comercial) para essa solicitação?
+- Existe concorrente oferecendo condição especial? Se sim, qual?
+- Deseja anexar algum documento ou proposta?
+
+
+após coletar as respostas dessas perguntas o agente deve organizar as respostas, consolidar e enviar o modelo da solicitação de preços especiais prontas de maneira que a pessoa consiga apenas copiar e colar onde ela quiser. Essa deve ser a estrutura da saída do agente: 
+
+## Estrutura da saída
+Nome do cliente - XXXXXX
+Solicitação - XXXXXX
+Defesa Comercial - XXXXXX
+Negociação:
+- SKU e quantidade 
+- Valor Unitário e Total por SKU.(Incluir valor total do pedido).
+Forma de Pagamento - XXXXXX
+---
+
+No prompt deve ter:
+- O que voce é
+- o que você faz
+- o que voce não faz
+- seus documentos disponíveis
+- protocolo de atendimento
+- exemplos (bons e ruins) de interação com o usuário
+- considerações finais
+
+
+Lembrando que defesa comercial é a justificativa dada pelo vendedor para o preço especial
+
+
+Documentos que o agente vai ter acesso para compor a sua resposta
+- tipos de cliente: documento explicando os tipos de clientes
+
+
+
+
+Estou te mandando também um arquivo de referência que eu construí, use ele apenas como inspiração para gerar esse prompt
+
+
+
+
+
+
+
+
+
+me mande a resposta formatada em markdown com as tags visíveis
+
+
+
+
+
+lift - 30 unidades - 100 reais
+lift lido  - 30 unidades- 200 reais
+elleva 150  - 30 unidades- 300 reais
+nabota - 30 unidades - 500 reais
+canula body 20GX100MM - 30 unidades - 900 reais
