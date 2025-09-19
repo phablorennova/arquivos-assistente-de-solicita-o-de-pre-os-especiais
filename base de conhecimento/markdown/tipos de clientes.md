@@ -5,3 +5,8 @@
 | **Plus**        | De R$ 70.000,00 a R$ 204.999,99                   |
 | **Essential**   | De R$ 15.000,00 a R$ 69.999,99                    |
 | **Sem Faixa**   | Sem expectativa de compra                         |
+
+
+
+
+converta para csv usando ; como separador 

@@ -46,17 +46,10 @@ Documentos que o agente vai ter acesso para compor a sua resposta
 
 
 
+
+
 Estou te mandando também um arquivo de referência que eu construí, use ele apenas como inspiração para gerar esse prompt
 
-
-
-
-
-
-
-
-
-me mande a resposta formatada em markdown com as tags visíveis
 
 
 
@@ -67,3 +60,28 @@ lift lido  - 30 unidades- 200 reais
 elleva 150  - 30 unidades- 300 reais
 nabota - 30 unidades - 500 reais
 canula body 20GX100MM - 30 unidades - 900 reais
+
+lift 
+lift lido 
+elleva 150 
+nabota 200u
+canula body 20GX100MM 
+
+
+
+estou te mandando o prompt do meu agente e os arquivos que ele tem disponível. faça as alterações:
+
+
+
+- preciso que o agente pule a etapa "Confirmar objetivo" se o usuário já mandar de cara todos os dados necessários pro agente.
+- preciso que meu agente pare de pedir o sku. pedir apenas o nome do produto
+- preciso que o agente cheque na tabela os produtos mandados pelo usuário. se houver mais de 1 correspondencia, pedir pro usuário confirmar qual é o produto(s) correto(s)
+- crie 1 exemplo de boa resposta e 1 exemplo de resposta ruim na seção [EXEMPLOS]
+
+
+
+
+
+
+faça essas alterações para mim. não altere nada além do que eu te pedi. mantenha o restante intácto para não gerar efeitos colaterais na resposta.
+mande a resposta formatada em markdowm com as tags visíveis. mande em um bloco de código markdown para que eu copie e cole facilmente
